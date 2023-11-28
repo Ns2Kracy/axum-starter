@@ -1,0 +1,10 @@
+[package]
+name = "prisma-cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+publish = false
+
+
+[dependencies]
+prisma-client-rust-cli = { workspace = true }

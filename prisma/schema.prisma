@@ -1,0 +1,9 @@
+datasource db {
+    provider = "sqlite"
+    url      = "file:dev.db"
+}
+
+generator client {
+    provider = "cargo prisma"
+    output   = "../crates/prisma/src/prisma.rs"
+}

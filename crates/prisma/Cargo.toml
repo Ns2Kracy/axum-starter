@@ -1,0 +1,12 @@
+[package]
+name = "prisma"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+publish = false
+
+
+[dependencies]
+prisma-client-rust = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
